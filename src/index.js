@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <h1>October Goals</h1>
       <ToDoList tasks={tasks} />
-      <ToDoForm setTasks={setTasks} />
+      <ToDoForm setTasks={setTasks} tasks={tasks} />
     </div>
   );
 }
